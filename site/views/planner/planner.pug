@@ -1,5 +1,6 @@
-doctype html
-head
+extends planner-layout
+
+block meta-library
   meta(charset='utf-8')
 
   link(href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet')
@@ -9,7 +10,6 @@ head
   link(href='calendar/timegrid/main.min.css' rel='stylesheet')
   link(href='calendar/list/main.min.css' rel='stylesheet')
   link(href='bootstrap/css/bootstrap.min.css' rel='stylesheet')
-  link(href='css/planner.css' rel='stylesheet')
 
   script(src='jquery/jquery.min.js')
   script(src='calendar/core/main.min.js')
@@ -19,17 +19,28 @@ head
   script(src='calendar/interaction/main.min.js')
   script(src='bootstrap/js/bootstrap.min.js')
 
+block meta-self
+  link(href='css/planner.css' rel='stylesheet')
   script(type='module' src='js/planner.js')
-#external-events.container
-  p.text-center
-    b Events
-  .fc-event.text-center.digital-ml DigitalML
-  .fc-event.text-center.springboard Springboard
-  .fc-event.text-center.mini-enterprises Mini Enterprises
-#goals.container
-  p.text-center
-    b Goals
-  .fc-event.text-center.digital-ml Director of AI
-  .fc-event.text-center.springboard Masters in CS
-  .fc-event.text-center.mini-enterprises $1,000,000
-#calendar.container
+
+block calendar
+  #external-events.container
+    p.text-center
+      b Events
+    .fc-event.text-center.digital-ml DigitalML
+    .fc-event.text-center.springboard Springboard
+    .fc-event.text-center.mini-enterprises Mini Enterprises
+  #goals.container
+    p.text-center
+      b Goals
+    .fc-event.text-center.digital-ml Director of AI
+    .fc-event.text-center.springboard Masters in CS
+    .fc-event.text-center.mini-enterprises $1,000,000
+  #links.container
+    p.text-center
+      b Links
+    .fc-event.text-center.digital-ml DigitalML
+    .fc-event.text-center.springboard Springboard
+    .fc-event.text-center.mini-enterprises Mini Enterprises
+    p.text-center
+  #calendar.container

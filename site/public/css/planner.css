@@ -1,15 +1,16 @@
 #calendar {
-	margin-top: 10px;
+	margin-top: 20px;
 	position: relative;
 	z-index: 1;
 	margin-left: 200px;
 }
 
 #goals,
+#links,
 #external-events {
 	position: fixed;
 	z-index: 2;
-	top: 4em;
+	top: 5em;
 	left: 20px;
 	width: 150px;
 	padding: 0 10px;
@@ -18,7 +19,11 @@
 }
 
 #goals {
-	top: 16em;
+	top: 15em;
+}
+
+#links {
+	top: 25em;
 }
 
 .fc-event {

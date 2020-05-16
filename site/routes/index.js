@@ -8,7 +8,7 @@ router.get('/', (req, res, next) => {
 
 // Planner
 router.get('/planner', (req, res, next) => {
-	res.render('planner/home.pug');
+	res.render('planner/planner.pug');
 });
 
 module.exports = router;
