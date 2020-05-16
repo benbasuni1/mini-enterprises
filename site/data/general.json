@@ -1,0 +1,9 @@
+[
+	{
+		"title": "CG",
+		"startTime": "19:30",
+		"endTime": "21:00",
+		"daysOfWeek": [ "3" ],
+		"color": "#58afe0"
+	}
+]

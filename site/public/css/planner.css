@@ -1,3 +1,11 @@
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: white;
+}
+
 #calendar {
 	margin-top: 20px;
 	position: relative;
@@ -6,8 +14,7 @@
 }
 
 #goals,
-#links,
-#external-events {
+#sheets {
 	position: fixed;
 	z-index: 2;
 	top: 5em;
@@ -18,30 +25,36 @@
 	background: #eee;
 }
 
-#goals {
+#sheets {
 	top: 15em;
 }
 
-#links {
+/* #sheets {
 	top: 25em;
+} */
+
+.fc-today {
+	background: #ffb8b8 !important;
 }
 
 .fc-event {
-	margin: 1em 0;
 	cursor: move;
 }
 
 .digital-ml {
+	margin: 1em 0;
 	background-color: #e78833;
 	border: 1px solid #e78833;
 }
 
 .springboard {
+	margin: 1em 0;
 	background-color: #00c09d;
 	border: 1px solid #00c09d;
 }
 
 .mini-enterprises {
+	margin: 1em 0;
 	background-color: #58afe0;
 	border: 1px solid #58afe0;
 }

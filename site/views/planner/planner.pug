@@ -20,27 +20,27 @@ block meta-library
   script(src='bootstrap/js/bootstrap.min.js')
 
 block meta-self
+  script.
+    let data = !{JSON.stringify(calendarData)}
   link(href='css/planner.css' rel='stylesheet')
   script(type='module' src='js/planner.js')
 
 block calendar
-  #external-events.container
-    p.text-center
-      b Events
-    .fc-event.text-center.digital-ml DigitalML
-    .fc-event.text-center.springboard Springboard
-    .fc-event.text-center.mini-enterprises Mini Enterprises
   #goals.container
     p.text-center
       b Goals
-    .fc-event.text-center.digital-ml Director of AI
-    .fc-event.text-center.springboard Masters in CS
+    .fc-event.text-center.digital-ml 
+      a(href='https://digitalml.atlassian.net/secure/RapidBoard.jspa?rapidView=69') Director of AI
+    .fc-event.text-center.springboard 
+      a(href='https://www.springboard.com/workshops/ai-machine-learning-career-track/learn#/dashboard') Masters in CS
     .fc-event.text-center.mini-enterprises $1,000,000
-  #links.container
+  #sheets.container
     p.text-center
-      b Links
-    .fc-event.text-center.digital-ml DigitalML
-    .fc-event.text-center.springboard Springboard
-    .fc-event.text-center.mini-enterprises Mini Enterprises
-    p.text-center
+      b Sheets
+    //- .fc-event.text-center.digital-ml 
+    //-   a(href='https://digitalml.atlassian.net/secure/RapidBoard.jspa?rapidView=69') Weekly Board
+    .fc-event.text-center.springboard 
+      a(href='https://docs.google.com/spreadsheets/d/1KoEvsTCNVaHIEQ1mv4JHp5J4O3b9YvK3DWbfGgb_oz4/edit#gid=1644705221') Springboard
+    .fc-event.text-center.mini-enterprises 
+      a(href='https://docs.google.com/spreadsheets/d/1YPcRpzpcGhlhr-SSGmn53vlofYJZUs_Owc7SBl1xumE/edit#gid=0') Mini Enterprises
   #calendar.container
