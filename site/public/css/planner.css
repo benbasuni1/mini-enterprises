@@ -1,0 +1,42 @@
+#calendar {
+	margin-top: 10px;
+	position: relative;
+	z-index: 1;
+	margin-left: 200px;
+}
+
+#goals,
+#external-events {
+	position: fixed;
+	z-index: 2;
+	top: 4em;
+	left: 20px;
+	width: 150px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	background: #eee;
+}
+
+#goals {
+	top: 16em;
+}
+
+.fc-event {
+	margin: 1em 0;
+	cursor: move;
+}
+
+.digital-ml {
+	background-color: #e78833;
+	border: 1px solid #e78833;
+}
+
+.springboard {
+	background-color: #00c09d;
+	border: 1px solid #00c09d;
+}
+
+.mini-enterprises {
+	background-color: #58afe0;
+	border: 1px solid #58afe0;
+}
