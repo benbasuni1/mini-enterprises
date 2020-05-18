@@ -3,14 +3,18 @@
 		"title": "Bella",
 		"startTime": "16:30",
 		"endTime": "17:00",
-		"daysOfWeek": [ "4" ],
-		"color": "#58afe0"
+		"daysOfWeek": [
+			"4"
+		],
+		"color": "#0aa7ff"
 	},
 	{
 		"title": "Mike",
 		"startTime": "17:00",
 		"endTime": "17:30",
-		"daysOfWeek": [ "6" ],
-		"color": "#58afe0"
+		"daysOfWeek": [
+			"6"
+		],
+		"color": "#0aa7ff"
 	}
 ]

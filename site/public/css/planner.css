@@ -1,3 +1,15 @@
+html,
+body {
+	background: rgb(62,76,107);
+	background: linear-gradient(90deg, rgba(62,76,107,1) 0%, rgba(142,199,222,1) 100%);
+	color: white;
+}
+
+.fc-list-heading,
+b {
+	color: #212529;
+}
+
 a {
 	color: inherit;
 }
@@ -22,23 +34,38 @@ a:hover {
 	width: 150px;
 	padding: 0 10px;
 	border: 1px solid #ccc;
-	background: #eee;
+	background: #728fa0 !important;
+	border-radius: 5px;
 }
 
 #sheets {
 	top: 15em;
 }
 
-/* #sheets {
-	top: 25em;
-} */
-
 .fc-today {
-	background: #ffb8b8 !important;
+	background : #c31312 !important;
+}
+
+.fc-list-heading td {
+	background: #0ea767 !important;
+}
+
+.fc-list-item:hover td {
+	background: black !important;
 }
 
 .fc-event {
 	cursor: move;
+}
+
+.fc-button-primary {
+	background-color: #49a0f7 !important;
+	border-color: #2172c3!important;
+}
+
+.fc-button-active {
+	background-color: #06a07d !important;
+	border-color: #128065 !important;
 }
 
 .digital-ml {

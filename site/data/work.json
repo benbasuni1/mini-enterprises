@@ -1,10 +1,20 @@
 [
 	{
 		"title": "Standup",
-		"daysOfWeek": [ "1", "2", "3", "4", "5" ],
-		"color": "#ffd587",
+		"daysOfWeek": [
+			"1",
+			"2",
+			"3",
+			"4",
+			"5"
+		],
+		"color": "#fbff0d",
 		"allDay": true,
 		"rendering": "background",
-		"excludedDates": [ "2020/05/18", "2020/05/19", "2020/05/25" ]
+		"excludedDates": [
+			"2020/05/18",
+			"2020/05/19",
+			"2020/05/25"
+		]
 	}
 ]
