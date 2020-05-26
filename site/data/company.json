@@ -1,8 +1,8 @@
 [
 	{
 		"title": "Bella",
-		"startTime": "16:30",
-		"endTime": "17:00",
+		"startTime": "16:00",
+		"endTime": "16:30",
 		"daysOfWeek": [
 			"4"
 		],

@@ -43,7 +43,8 @@ a:hover {
 }
 
 .fc-today {
-	background : #c31312 !important;
+	background : #c26ae6 !important;
+	border-color :white !important;
 }
 
 .fc-list-heading td {
@@ -84,4 +85,10 @@ a:hover {
 	margin: 1em 0;
 	background-color: #58afe0;
 	border: 1px solid #58afe0;
+}
+
+.school {
+	margin: 1em 0;
+	background-color: #da3547;
+	border: 1px solid #da3547;
 }

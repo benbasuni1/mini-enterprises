@@ -1,9 +1,16 @@
 [
 	{
 		"title": "Semih",
-		"daysOfWeek": [ "4" ],
-		"startTime": "14:00:00",
-		"endTime": "14:30:00",
+		"daysOfWeek": [
+			"4"
+		],
+		"startTime": "13:00:00",
+		"endTime": "13:30:00",
+		"color": "#00c09d"
+	},
+	{
+		"title": "Counselor",
+		"start": "2020-05-28T17:30:00",
 		"color": "#00c09d"
 	}
 ]

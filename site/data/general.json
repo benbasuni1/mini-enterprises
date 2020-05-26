@@ -14,5 +14,15 @@
 		"end": "2020-05-30",
 		"allDay": true,
 		"color": "#0aa7ff"
+	},
+	{
+		"title": "Sacramento",
+		"start": "2020-07-03T16:30:00",
+		"color": "#6FCB42"
+	},
+	{
+		"title": "NYC",
+		"start": "2020-07-19T21:35:00",
+		"color": "#6FCB42"
 	}
 ]
