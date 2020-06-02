@@ -92,3 +92,9 @@ a:hover {
 	background-color: #da3547;
 	border: 1px solid #da3547;
 }
+
+.budget {
+	margin: 1em 0;
+	background-color: #0c7d0a;
+	border: 1px solid #0c7d0a;
+}

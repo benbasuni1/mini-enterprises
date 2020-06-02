@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 	let calendar = new FullCalendar.Calendar(document.getElementById('calendar'), {
 		plugins: [ 'bootstrap', 'timeGrid', 'dayGrid', 'list', 'interaction' ],
-		editable: true,
-		droppable: true,
-		selectable: true,
 		weekNumbers: true,
 		weekNumbersWithinDays: true,
 		listDayFormat: false,
@@ -15,10 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		events: data,
 		eventTextColor: '#353035',
 		firstDay: 1,
-		columnHeaderText: (date) => {
-			if (date.getDay() === 0) return 7;
-			return date.getDay();
-		},
 		header: { center: 'home listWeek dayGridMonth' },
 		customButtons: {
 			home: {
@@ -46,15 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 
 			return show;
-		},
-		select: (info) => {
-			let title = prompt('title:');
-			if (title) {
-				events.push({
-					title: title,
-					start: info.startStr
-				});
-			}
 		}
 	}).render();
 });
