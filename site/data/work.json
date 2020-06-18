@@ -57,7 +57,17 @@
 		"daysOfWeek": [
 			"4"
 		],
-		"startTime": "15:00:00",
+		"startTime": "13:00:00",
+		"color": "#e78833"
+	},
+	{
+		"title": "Dick",
+		"start": "2020-06-05T12:30:00",
+		"color": "#e78833"
+	},
+	{
+		"title": "Mike",
+		"start": "2020-06-05T10:00:00",
 		"color": "#e78833"
 	}
 ]
